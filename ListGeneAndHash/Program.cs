@@ -16,7 +16,7 @@ namespace ListGeneAndHash
             var number = new Nullable<int>(num1);
 
             Console.WriteLine("Has a value ?:  "+ number.HasValue);
-            Console.WriteLine("Value:  "+ number.GetValueOrDefault());
+            Console.WriteLine("Value :  "+ number.GetValueOrDefault());
             Console.WriteLine("");
 
             Console.WriteLine("enter a number :");
@@ -32,6 +32,10 @@ namespace ListGeneAndHash
 
             List<string> NewList = new List<string> { index, name, num };
             Console.WriteLine(NewList.LongCount());
+
+            Console.WriteLine("choose 1, 2 or 3");
+            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine(NewList[n-1]);
 
 
         }
