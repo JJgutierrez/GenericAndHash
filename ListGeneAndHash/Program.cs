@@ -10,12 +10,14 @@ namespace ListGeneAndHash
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("enter a number:");
-            int num = int.Parse(Console.ReadLine());
-            var number = new Nullable<int>(num);
+            Console.WriteLine("Enter a number  :");
+            string num = Console.ReadLine();
+            int num1 = int.Parse(num);
+            var number = new Nullable<int>(num1);
 
-            Console.WriteLine("Has a value ?"+ number.HasValue);
-            Console.WriteLine("Value"+ number.GetValueOrDefault());
+            Console.WriteLine("Has a value ?:  "+ number.HasValue);
+            Console.WriteLine("Value:  "+ number.GetValueOrDefault());
+            Console.WriteLine("");
 
             Console.WriteLine("enter a number :");
             string index = Console.ReadLine();
@@ -24,8 +26,13 @@ namespace ListGeneAndHash
 
             var Nlist = new GenericDictionary<string,string>();
             Nlist.Add(index, name);
+
             var NList2 = new GenList<string,string>();
             NList2.Add(index,name);
+
+            List<string> NewList = new List<string> { index, name, num };
+            Console.WriteLine(NewList.LongCount());
+
 
         }
     }

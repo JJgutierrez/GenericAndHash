@@ -3,3 +3,4 @@ C:\Users\Juan\Documents\class\carbontest\ListGeneAndHash\ListGeneAndHash\bin\Deb
 C:\Users\Juan\Documents\class\carbontest\ListGeneAndHash\ListGeneAndHash\bin\Debug\ListGeneAndHash.pdb
 C:\Users\Juan\Documents\class\carbontest\ListGeneAndHash\ListGeneAndHash\obj\Debug\ListGeneAndHash.exe
 C:\Users\Juan\Documents\class\carbontest\ListGeneAndHash\ListGeneAndHash\obj\Debug\ListGeneAndHash.pdb
+C:\Users\Juan\Documents\class\carbontest\ListGeneAndHash\ListGeneAndHash\obj\Debug\ListGeneAndHash.csprojResolveAssemblyReference.cache

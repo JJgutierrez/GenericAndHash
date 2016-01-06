@@ -21,8 +21,9 @@ namespace ListGeneAndHash
         {
             using (StreamWriter write = File.AppendText(@"Gen.txt"))
             {
+                write.WriteLine(key);
+                write.Write(value);
                 
-                write.WriteLine(value);
             }
         }
         public T this[int index]
