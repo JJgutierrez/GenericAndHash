@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ListGeneAndHash
+{
+    public class Utilities<T> where T : IComparable, new()
+    {
+        public int Max(int a, int b)
+        {
+            return a > b ? a : b;
+        }
+        public void DoSomeThing(T value)
+        {
+            var obj = new T();
+        }
+        public T Max (T a, T b) 
+        {
+            return a.CompareTo(b) > 0 ? a : b;
+        }
+    }
+}
