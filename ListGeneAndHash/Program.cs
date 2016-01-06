@@ -18,12 +18,14 @@ namespace ListGeneAndHash
             Console.WriteLine("Value"+ number.GetValueOrDefault());
 
             Console.WriteLine("enter a number :");
-            int index = int.Parse(Console.ReadLine());
+            string index = Console.ReadLine();
             Console.WriteLine("enter a Name :");
             string name = Console.ReadLine();
 
-            var Nlist = new GenericDictionary<int,string>();
+            var Nlist = new GenericDictionary<string,string>();
             Nlist.Add(index, name);
+            var NList2 = new GenList<string,string>();
+            NList2.Add(index,name);
 
         }
     }
